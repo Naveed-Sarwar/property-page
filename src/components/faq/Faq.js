@@ -17,7 +17,7 @@ const Faq = () => {
                 <div>
                     <div className='my-5'>
                         <div onClick={() => setShow(!show)} className='cursor-pointer flex items-center justify-between  '>
-                            <p className='font-semibold text-[1rem] flex flex-wrap w-4/5 lg:w-auto'>What does it mean when a Here property is "onboarding?"</p>
+                            <p className='font-semibold text-[1rem] flex flex-wrap w-4/5 lg:w-auto'>What does it mean when a Aasthi property is "onboarding?"</p>
                             {
                                 show ? <TfiMinus fontSize={24} /> : <TfiPlus fontSize={24} />
                             }
@@ -36,7 +36,7 @@ const Faq = () => {
                     </div>
                     <div className='my-5'>
                         <div onClick={() => setShowOne(!showOne)} className='cursor-pointer flex items-center  justify-between'>
-                            <p className='font-semibold text-[1rem] w-4/5 lg:w-auto'>What does it mean when a Here property is "onboarding?"</p>
+                            <p className='font-semibold text-[1rem] w-4/5 lg:w-auto'>What does it mean when a Aasthi property is "onboarding?"</p>
                             {
                                 showOne ? <TfiMinus fontSize={24} /> : <TfiPlus fontSize={24} />
                             }
@@ -95,7 +95,7 @@ const Faq = () => {
                     </div>
                     <div className='my-3'>
                         <div onClick={() => setShowFour(!showFour)} className='cursor-pointer flex items-center justify-between'>
-                            <p className='font-semibold text-[1rem] w-4/5 lg:w-auto'>What does it mean when a Here property is "onboarding?"</p>
+                            <p className='font-semibold text-[1rem] w-4/5 lg:w-auto'>What does it mean when a Aasthi property is "onboarding?"</p>
                             {
                                 showFour ? <TfiMinus fontSize={24} /> : <TfiPlus fontSize={24} />
                             }
@@ -116,7 +116,7 @@ const Faq = () => {
                         <div onClick={() => setShowFive(!showFive)} className='cursor-pointer flex items-center justify-between'>
                             <p className='font-semibold text-[1rem] w-4/5 lg:w-auto'>What am I buying?</p>
                             {
-                                showFive ? <TfiMinus fontSize={24}  /> : <TfiPlus fontSize={24} />
+                                showFive ? <TfiMinus fontSize={24} /> : <TfiPlus fontSize={24} />
                             }
                         </div>
                         {

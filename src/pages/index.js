@@ -81,11 +81,11 @@ export default function Home() {
             <div className='grid grid-cols-3 gap-2'>
               <div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Bedrooms</p>
-                <p className='text-[#200955] font-semibold'>5</p>
+                <p className='text-[#200955] font-semibold'>3</p>
               </div>
               <div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Bathrooms</p>
-                <p className='text-[#200955] font-semibold'>8</p>
+                <p className='text-[#200955] font-semibold'>3</p>
               </div><div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Beds</p>
                 <p className='text-[#200955] font-semibold'>9</p>
@@ -99,7 +99,7 @@ export default function Home() {
                 <p className='text-[#200955] font-semibold'>House</p>
               </div><div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Living space</p>
-                <p className='text-[#200955] font-semibold'>2899 <sub>sq ft</sub></p>
+                <p className='text-[#200955] font-semibold'>2039 <sub>sq ft</sub></p>
               </div>            <div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Lot size</p>
                 <p className='text-[#200955] font-semibold'>4791<sub>sq ft</sub></p>
