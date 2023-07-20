@@ -81,7 +81,7 @@ export default function BarChart() {
                   {
                         labels: "months" == 'months' ? ['Jan', 'Feb', 'Mar', 'Apr', 'May', "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"] : labels,
                         datasets: [{
-                            label: 'RevPAN',
+                            label: 'revenue',
                             data: [65, 59, 80, 81, 56, 55, 40 , 20 , 40 , 66 , 76 , 80 , 90],
                             backgroundColor: [
                               'rgba(255, 99, 132, 0.2)',
