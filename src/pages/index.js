@@ -117,7 +117,7 @@ export default function Home() {
             </div>
             <br />
             <Link href="https://www.airbnb.com/rooms/919605381720707833?source_impression_id=p3_1690473841_5aSd0IfgWAZ3kkse" target="_blank">
-              <p className='text-[#d74e4e] font-normal text-lg cursor-pointer'>Airbnd Listing off</p>
+              <p className='text-[#d74e4e] font-normal text-lg cursor-pointer'>Airbnd Listing</p>
             </Link>    {/* <br /> */}
             <p className='text-[1.2rem] font-medium py-4'>Amenities</p>
             <div className='grid grid-cols-12 gap-2'>
