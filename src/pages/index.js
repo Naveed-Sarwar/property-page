@@ -23,6 +23,7 @@ import Faq from '@/components/faq/Faq';
 import PropertyCardTwo from '@/components/propertyCard/PropertyCardTwo';
 
 import AdditionalResources from '@/components/additionalResources/AdditionalResources';
+import Link from 'next/link';
 
 
 export default function Home() {
@@ -64,7 +65,7 @@ export default function Home() {
       <p className="py-3 mt-4 text-center text-4xl font-semibold text-[#DEBD6D] ">A A S T H I</p>
 
       <div className="pt-0 lg:pt-20 ">
-        
+
         <div className='grid grid-cols-12 lg:mx-14 gap-x-8'>
           <div className='order-3 relative flex justify-end lg:order-1 col-span-12 lg:col-span-2 xl:col-span-3'>
             <div className='relative lg:sticky lg:h-screen'>
@@ -115,6 +116,9 @@ export default function Home() {
               </div>
             </div>
             <br />
+            <Link href="https://www.airbnb.com/rooms/919605381720707833?source_impression_id=p3_1690473841_5aSd0IfgWAZ3kkse" target="_blank">
+              <p className='text-[#d74e4e] font-normal text-lg cursor-pointer'>Airbnd Listing</p>
+            </Link>    {/* <br /> */}
             <p className='text-[1.2rem] font-medium py-4'>Amenities</p>
             <div className='grid grid-cols-12 gap-2'>
               <div className='col-span-12 lg:col-span-7'>
