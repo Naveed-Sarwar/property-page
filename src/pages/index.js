@@ -61,8 +61,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css' rel='stylesheet' />
       </Head>
+      <p className="py-3 mt-4 text-center text-4xl font-semibold text-[#DEBD6D] ">A A S T H I</p>
 
       <div className="pt-0 lg:pt-20 ">
+        
         <div className='grid grid-cols-12 lg:mx-14 gap-x-8'>
           <div className='order-3 relative flex justify-end lg:order-1 col-span-12 lg:col-span-2 xl:col-span-3'>
             <div className='relative lg:sticky lg:h-screen'>
@@ -81,14 +83,14 @@ export default function Home() {
             <div className='grid grid-cols-3 gap-2'>
               <div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Bedrooms</p>
-                <p className='text-[#200955] font-semibold'>3</p>
+                <p className='text-[#200955] font-semibold'>5</p>
               </div>
               <div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Bathrooms</p>
-                <p className='text-[#200955] font-semibold'>3</p>
+                <p className='text-[#200955] font-semibold'>4</p>
               </div><div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Beds</p>
-                <p className='text-[#200955] font-semibold'>9</p>
+                <p className='text-[#200955] font-semibold'>8</p>
               </div>
               <div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Sleeps</p>
@@ -99,14 +101,14 @@ export default function Home() {
                 <p className='text-[#200955] font-semibold'>House</p>
               </div><div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Living space</p>
-                <p className='text-[#200955] font-semibold'>2039 <sub>sq ft</sub></p>
+                <p className='text-[#200955] font-semibold'>2,589 <sub>sq ft</sub></p>
               </div>            <div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Lot size</p>
-                <p className='text-[#200955] font-semibold'>4791<sub>sq ft</sub></p>
+                <p className='text-[#200955] font-semibold'>4,791<sub>sq ft</sub></p>
               </div>
               <div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Year built</p>
-                <p className='text-[#200955] font-semibold'>47</p>
+                <p className='text-[#200955] font-semibold'>2023</p>
               </div><div>
                 <p className='text-[#8f8f8f] text-[0.9rem]'>Location</p>
                 <p className='text-[#200955] font-semibold'>Panama City Beach, Florida</p>
