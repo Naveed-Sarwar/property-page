@@ -2,6 +2,7 @@ import React from 'react'
 import PropertyImg from "../../../assets/property-img.jpeg";
 import Image from 'next/image';
 import Slider from '../slider/Slider';
+import Link from 'next/link';
 
 const PropertyCardTwo = () => {
     return (
@@ -30,7 +31,7 @@ const PropertyCardTwo = () => {
                         <p className='text-[#8d8d8d] underline underline-offset-4 decoration-dotted'>Price per share</p>
                         <p>$1.00</p>
                     </div>
-                    <button className='border-[1px] border-solid border-black mx-auto flex items-center justify-center w-full h-12 rounded-full text-[1.1rem] bg-black text-white hover:bg-white hover:text-black mt-8 '>Notify Me</button> </div>
+                    <Link href="https://checkout.stripe.com/c/pay/cs_live_a1ypOhVkGbnXKbXvmOASbopW0iLvZB5cuOY9Mp88NS7V3eCd1zdZoL8p8H#fidkdWxOYHwnPyd1blppbHNgWjA0SU9PT2pOdHVRZmRuQ3NXMElPYjVDQnVxTzVDQm41VmFdZ3czf09MVG1SUlZHPTJpS2NHPVBxV1N8R059Q3dScn90XTNkQTJTQDBIRmlqMTVCZkQ3fExANTVrNTB8TzRkPCcpJ3VpbGtuQH11anZgYUxhJz8nZ0xcYFx2NDBnYHwzNFNwZ0xOJ3gl" target="_blank"><button className='border-[1px] border-solid border-black mx-auto flex items-center justify-center w-full h-12 rounded-full text-[1.1rem] bg-black text-white hover:bg-white hover:text-black mt-8 '>Buy Shares</button> </Link></div>
                 <br /> <hr />
                 {/* <div className='flex py-6 px-4 justify-between'>
                     <p>86% funded</p>
