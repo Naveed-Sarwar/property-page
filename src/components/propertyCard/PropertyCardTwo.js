@@ -14,10 +14,10 @@ const PropertyCardTwo = () => {
                 <div className='px-4 '>
 
                     <div className='flex -mt-16 lg:mt-2 justify-between items-center'>
-                        <p className='font-semibold text-[#333333] text-[1.5rem]'>Gatortail</p>
+                        <p className='font-semibold text-[#333333] text-[1.5rem]'>Sunset Tequilla</p>
                         <p className='bg-[#64c464] font-bold text-[0.875rem] h-7 w-16 rounded-md items-center flex justify-center text-white'>Open</p>
                     </div>
-                    <p className='pt-2'>Panama City Beach</p>
+                    <p className='pt-2'>Sedona, Arizona</p>
                     <br />
 
                 </div>
@@ -25,13 +25,13 @@ const PropertyCardTwo = () => {
                 <div className='px-4'>
                     <div className='flex mt-2 py-2 justify-between'>
                         <p className='text-[#8d8d8d] underline underline-offset-4 decoration-dotted'>Offering amount</p>
-                        <p>$750,000</p>
+                        <p>$950,000</p>
                     </div>
                     <div className='flex py-2 justify-between'>
                         <p className='text-[#8d8d8d] underline underline-offset-4 decoration-dotted'>Price per share</p>
                         <p>$1.00</p>
                     </div>
-                    <Link href="https://buy.stripe.com/aEUg2w6pv61A0Rq4gm" target="_blank"><button className='border-[1px] border-solid border-black mx-auto flex items-center justify-center w-full h-12 rounded-full text-[1.1rem] bg-black text-white hover:bg-white hover:text-black mt-8 '>Buy Shares</button> </Link></div>
+                    <Link href="https://buy.stripe.com/aEUg2w6pv61A0Rq4gm" target="_blank"><button className='border-[1px] border-solid border-black mx-auto flex items-center justify-center w-full h-12 rounded-full text-[1.1rem] bg-black text-white hover:bg-white hover:text-black mt-8 '>Notify Me</button> </Link></div>
                 <br /> <hr />
                 {/* <div className='flex py-6 px-4 justify-between'>
                     <p>86% funded</p>
